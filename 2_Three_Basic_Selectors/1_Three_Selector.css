@@ -1,0 +1,74 @@
+/* The element selector selects HTML elements based on the element name */
+p {
+    color : red;
+}
+
+/* The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+To select an element with a specific id, write a hash (#) character, followed by the id of the element */
+/* Note: An id name cannot start with a number! */
+
+#D4 {
+    color : green;
+}
+
+/* The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character, followed by the class name. */
+
+.blue-text {
+    color : blue;
+}
+
+
+#italic-text {
+    font-style: italic;
+}
+
+.underline_text {
+    text-decoration : underline;
+}
+
+/* Priority of Selectors : 
+ID Selector > Class Selector > ID Selector */
+
+/* Example for h2 tag */
+/* Priority - Wise */
+.green-text {
+    color : green;
+}
+
+#red-text {
+    color : red;
+}
+
+h2 {
+    color : blue;
+}
+
+/* If same id is repeated then last one will get select */
+/* h3 example */
+.text-color-h3 {
+    color :blueviolet;
+}
+
+.text-color-h3 {
+    color :brown;
+}
+
+/* h4 example */
+.text-color-h4 {
+    color :blueviolet;
+}
+
+.text-color-h4 {
+    color :brown;
+}
+
+/* h5 example */
+.text-color-h5 {
+    color :blueviolet;
+}
+
+.text-color-h5 {
+    color :brown;
+}
