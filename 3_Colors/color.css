@@ -113,3 +113,11 @@
 #hsl-color {
     color : hsl(10, 50%, 20%);
 }
+
+
+
+
+/*CSS HSLA Colors :*/
+#hsla-color {
+    color : hsl(10, 50%, 20%, 0.4);
+}
